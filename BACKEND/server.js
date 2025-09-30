@@ -1,13 +1,7 @@
 const express = require("express");
 const sequelize = require("./config/database"); // adjust path if your database file is elsewhere
 require("dotenv").config();
-const User = require("./Models/user");
-const trivia_Category = require("./Models/trivia_category");
-const trivia_Question = require("./Models/trivia_question");
-const trivia_Answers = require("./Models/trivia_Answers");
-const UserProgress = require("./Models/User_progress"); 
-const Milestone = require ("./Models/milestone");
-const Leaderboard = require ("./Models/leaderboard");
+
 
 const app = express();
 
